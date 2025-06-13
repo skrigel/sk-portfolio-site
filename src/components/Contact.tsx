@@ -99,7 +99,7 @@ function Contact() {
               value={message}
               onChange={(e) => {
                 setMessage(e.target.value);
-              }}
+              }} 
               error={messageError}
               helperText={messageError ? "Please enter the message" : ""}
             />
