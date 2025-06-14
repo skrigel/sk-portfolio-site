@@ -1,3 +1,4 @@
+
 .dark-mode .about-section {
     background-color: rgba(0, 0, 0, 0.2);
 }
@@ -10,12 +11,14 @@
     width: 100%;
     padding: 0px 15%;
     min-height: 700px;
-    background-image: url("../images/bg-dark.png");
+    background-image: url("../images/bg-blue.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
 }
+
+
 
 .about-section .content {
     text-align: left;

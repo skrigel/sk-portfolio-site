@@ -1,8 +1,33 @@
+
+.MuiOutlinedInput-input {
+  color: #050f0b !important;
+  background-color: white !important;
+}
+
+/* Optional: Make helper text and label readable too */
+.MuiFormHelperText-root {
+  color: #4b5563 !important;
+}
+
+.MuiInputLabel-root {
+  color: #1f2937 !important;
+}
+
 .contact_wrapper svg {
   font-size: 1em;
   vertical-align: middle;
-  margin-right: 5px;
+  margin-right: 10px;
 }
+.form-container {
+  display: flex;
+  flex-direction: column;
+
+  .MuiFormControl-root {
+    background-color: white;
+  width: 100%;
+}
+}
+
 
 .contact-form {
   padding-top: 20px;
@@ -14,12 +39,13 @@
   }
 
   button:hover {
-    background-color: #5000ca;
+    background-color: #3b82f6;
     color: white;
   }
 
   fieldset {
     background-color: white;
+    color: #050f0b;
   }
 }
 
@@ -32,6 +58,7 @@ label {
   display: flex;
   gap: 15px;
   padding-bottom: 15px;
+  // margin: px;
 }
 
 .form-flex .MuiFormControl-root {
