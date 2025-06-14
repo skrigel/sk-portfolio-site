@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from '../assets/images/avatar.png';
+import profilePic from '../assets/images/meFr.png';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
