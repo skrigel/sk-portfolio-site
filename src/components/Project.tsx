@@ -22,8 +22,8 @@ function Project() {
                 <p>Developed a tool for visualizing data infrastructure across Massachusetts using React and Node.js</p>
             </div>
             <div className="project">
-                <a href="https://github.com/skrigel/airi-chatbot-class/tree/main/" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/skrigel/airi-chatbot-class/tree/main/" target="_blank" rel="noreferrer"><h2>MIT AI Risk Index Chatbot</h2></a>
+                <a href="https://airi-chatbot-class-production.up.railway.app/" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://airi-chatbot-class-production.up.railway.app/" target="_blank" rel="noreferrer"><h2>MIT AI Risk Index Chatbot</h2></a>
                 <p>Designed, developed, and launched a RAG-based chatbot using Gemini 3.5, incorporating various data sources and APIs for enhanced user interaction.</p>
             </div>
             <div className="project">
