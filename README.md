@@ -1,64 +1,31 @@
-## Quick Setup
+# Sasha Krigel – Personal Portfolio Website
 
-1. Ensure you have [Node.js](https://nodejs.org/) installed. Check your installation by running:
+This is the source code for my personal portfolio site, built with React. It serves as a central hub to showcase my projects, research, resume, and interests across software engineering, machine learning, and product thinking.
 
-    ```bash
-    node -v
-    ```
+## 🌐 Purpose
 
-2. In the project directory, install dependencies:
+The site was created to:
+- Present a curated selection of academic, technical, and independent work
 
-    ```bash
-    npm install
-    ```
+## ⚙️ Tech Stack
 
-3. Start the development server:
+- **React** – Component-based UI
+- **JavaScript/TypeScript** – Type safety and maintainability
+- **HTML/CSS** – Layout and styling (with optional frameworks like Tailwind or Styled Components)
+- **React Router** – Client-side routing
+- **GitHub Pages** - Deployment (choose based on where it’s hosted)
 
-    ```bash
-    npm start
-    ```
+## 🧩 Features
 
-4. Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
+- Responsive design optimized for mobile and desktop
+- Dynamic project showcase with links and descriptions
+- Integrated resume and contact information
+- Modular structure for easy updates and scalability
 
-5. Customize the template by navigating to the `/src/components` directory. Modify texts, pictures, and other information as needed.
+## 🚀 Setup Instructions
 
-The page will reload if you make edits, and you will see any lint errors in the console.
-
-If you are interested in creating a mockup image like the ones from the personal projects section, I recommend [Genmoo](https://gemoo.com/tools/browser-mockup-generator/). This website lets you generate sleek looking browser mockups for free.
-
-## Deployment
-
-You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/), [Render](https://render.com/), [Heroku](https://www.heroku.com/)) for deployment. One of the easiest ways to host this portfolio is using GitHub Pages. Follow the instructions below for a production deploy.
-
-1. **Set Up GitHub Repository**
-
-    Create a new repository on GitHub for your portfolio app.
-
-2. **Configure `package.json`**
-
-    Edit the following properties in your `package.json` file:
-
-    ```json
-    {
-        "homepage": "https://yourusername.github.io/your-repo-name",
-        "scripts": {
-            "predeploy": "npm run build",
-            "deploy": "gh-pages -d build",
-            ...
-        }
-    }
-    ```
-
-    Replace `yourusername` with your GitHub username and `your-repo-name` with the name of your GitHub repository.
-
-3. **Deploy to GitHub Pages**
-
-    Run the following command to deploy your app:
-
-    ```bash
-    npm run deploy
-    ```
-
-4. **Access Your Deployed App**
-
-    After successfully deploying, you can access your app at `https://yourusername.github.io/your-repo-name`.
+```bash
+git clone https://github.com/YOUR_USERNAME/portfolio-site.git
+cd portfolio-site
+npm install
+npm start
